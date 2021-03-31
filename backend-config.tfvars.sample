@@ -1,0 +1,3 @@
+bucket = "bastion-tfstate"
+key    = "tf-state"
+region = "eu-central-1"

@@ -1,0 +1,9 @@
+vpc_id = "vpc-123456789"
+subnet_id = "subnet-123456789"
+bastion_ssh_sec_group_description = "SSH from Max Mustermann home office"
+ip_address = "123.123.123.123"
+ssh_key_file = "~/.ssh/id_rsa_maxmustermann.pub"
+target_security_group_id = "sg-987654321"
+target_ingress_port = 12345
+target_protocol = "tcp"
+target_security_rule_description = "From Max Mustermann bastion server"

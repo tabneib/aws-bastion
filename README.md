@@ -1,0 +1,1 @@
+A handy little terraform project to setup a bastion host in the public subnet of the given VPC. We can ssh to the bastion server and from there access VMs that locate in the private subnet of the VPC such as a RDS instance. Destroy all bastion resources after you have done your task to keep the VPC secure.
